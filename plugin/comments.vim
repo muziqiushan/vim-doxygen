@@ -552,7 +552,7 @@ function! <SID>GetDoxFileHeader(leading_blank)
 	let doc = doc. a:leading_blank." * @brief \n"
 	let doc = doc. a:leading_blank." *  \n"
 	let doc = doc. a:leading_blank." **/\n"
-    call append(line('$'), "/* vim: set expandtab ts=4 sw=4 sts=4 tw=80: */")
+    call append(line('$'), "/* vim: set expandtab ts=4 sw=4 sts=4 tw=100: */")
     return doc
 
 
